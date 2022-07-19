@@ -1,0 +1,8 @@
+dash==2.3.0
+dash-bootstrap-components==1.0.3
+dash-core-components==2.0.0
+dash-html-components==2.0.0
+pandas==1.4.1
+SQLAlchemy==1.4.32
+requests==2.27.1
+Werkzeug==2.0.0
