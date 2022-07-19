@@ -1,0 +1,28 @@
+version: "3.9"
+services:
+  delivery:
+    build: ./front-end/delivery
+    depends_on:
+      - backend
+    ports:
+      - "8050:8050"
+    links:
+      - backend
+    restart: on-failure
+  
+  reco:
+    build: ./front-end/reco
+    depends_on:
+      - backend
+    ports:
+      - "8051:8051"
+    links:
+      - backend
+    restart: on-failure
+  
+  backend:
+    build: ./back-end/All_APIs
+    ports:
+      - "5001:5001"
+    environment:
+      - FLASK_APP=Merged_APIs
