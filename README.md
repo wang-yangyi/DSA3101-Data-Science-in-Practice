@@ -1,6 +1,15 @@
 # What is this project about?
 Building a recommendation system with Flask and Dash on python. Backend models and data fetching are built using Flask and made into an API. Frontend include building a dashboard or interface (using Dash) for customers to get recommendations from the models and it also involves calling API for the data. Frontend team also has to build another dashboard/interface for internal e-commerce team to track delivery status for the different packages. Dataset used: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
+Recommendation system homepage:
+![](/assets/home-page.png)
+
+Recommendation system product page:
+![](/assets/product-page.jpg)
+
+Demo of Reccommendation system dashboard:
+https://drive.google.com/file/d/1WcsYrXrw0cA1uwqhodlH32wu5ftx0dLM/view?usp=sharing
+
 ## Contributions to this project
 - Documentations of project and how to run it (README.md)
 - Dockerisation of the different components (docker-compose.yaml, requirements.txt, miscellaneous changes to backend & frontend code)
